@@ -19,10 +19,10 @@ class StringBuilder{
         
         }
     prepend(str){
-        this._value=str.concat(this._value);
+        this._value=str+this._value;
         }
     pad(str){
-        this._value=str.concat(this._value)+str;
+        this._value=str+this._value+str;
     }   
 }
 const builder = new StringBuilder('.');
